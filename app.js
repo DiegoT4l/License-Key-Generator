@@ -24,6 +24,7 @@ function generateRandomKey(length, includeUppercase, includeLowercase, includeNu
 
 function generateKeys() {
     const numKeys = parseInt(document.getElementById('numKeys').value, 10);
+    const length = parseInt(document.getElementById('charKeys').value, 10);
     const includeUppercase = document.getElementById('includeUppercase').checked;
     const includeLowercase = document.getElementById('includeLowercase').checked;
     const includeNumbers = document.getElementById('includeNumbers').checked;
@@ -35,7 +36,7 @@ function generateKeys() {
 
     const keys = [];
     for (let i = 0; i < numKeys; i++) {
-        const key = generateRandomKey(16, includeUppercase, includeLowercase, includeNumbers);
+        const key = generateRandomKey(length, includeUppercase, includeLowercase, includeNumbers);
         if (key !== '') {
             keys.push(key);
         } else {
