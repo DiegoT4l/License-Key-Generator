@@ -1,0 +1,64 @@
+/* Download button */
+:root {
+    --main-focus: #2d8cf0;
+    --font-color: #dedede;
+    --bg-color-sub: #222;
+    --bg-color: #323232;
+    --main-color: #dedede;
+}
+.download-button {
+    position: relative;
+    width: 158px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.download-button, .download-button__icon, .download-button__text {
+    transition: all 0.3s;
+}
+
+.download-button .download-button__text {
+    transform: translateX(12px);
+    color: var(--font-color);
+    font-weight: 600;
+}
+
+.download-button .download-button__icon {
+    position: absolute;
+    transform: translateX(100px);
+    height: 100%;
+    width: 48px;
+    background-color: var(--bg-color-sub);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-button .download-button__svg {
+    width: 20px;
+    fill: var(--main-color);
+}
+
+.download-button:hover {
+    background: var(--bg-color);
+}
+
+.download-button:hover .download-button__text {
+    color: transparent;
+}
+
+.download-button:hover .download-button__icon {
+    width: 150px;
+    transform: translateX(-5px);
+}
+
+.download-button:active {
+    transform: translate(3px, 3px);
+    box-shadow: 0px 0px var(--main-color);
+}

@@ -1,0 +1,12 @@
+.eins-modal.custom-size > .eins-modal-content{
+    max-height: 600px;
+    max-width: 600px;
+}
+.keysTable {
+    padding: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+.eins-modal-close-button{
+    background-color: ;
+}
