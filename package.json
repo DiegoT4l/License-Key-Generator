@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/DiegoT4l/License-Key-Generator/issues"
   },
-  "homepage": "https://github.com/DiegoT4l/License-Key-Generator#readme"
+  "homepage": "https://github.com/DiegoT4l/License-Key-Generator#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2",
+    "normalize.css": "^8.0.1"
+  }
 }
