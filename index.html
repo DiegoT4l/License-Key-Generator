@@ -4,20 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
 
     <title>Generador de Llaves de Licencia</title>
 </head>
 
 <body>
-    <div class="info">
-        <div class="info__icon">
-            <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m12 1.5c-5.79844 0-10.5 4.70156-10.5 10.5 0 5.7984 4.70156 10.5 10.5 10.5 5.7984 0 10.5-4.7016 10.5-10.5 0-5.79844-4.7016-10.5-10.5-10.5zm.75 15.5625c0 .1031-.0844.1875-.1875.1875h-1.125c-.1031 0-.1875-.0844-.1875-.1875v-6.375c0-.1031.0844-.1875.1875-.1875h1.125c.1031 0 .1875.0844.1875.1875zm-.75-8.0625c-.2944-.00601-.5747-.12718-.7808-.3375-.206-.21032-.3215-.49305-.3215-.7875s.1155-.57718.3215-.7875c.2061-.21032.4864-.33149.7808-.3375.2944.00601.5747.12718.7808.3375.206.21032.3215.49305.3215.7875s-.1155.57718-.3215.7875c-.2061.21032-.4864.33149-.7808.3375z" fill="#393a37"></path></svg>
-        </div>
-        <div class="info__title"></div>
-    </div>
-
     <main>
         <div class="container">
             <h1>Generador de Llaves de Licencia</h1>
@@ -71,7 +63,7 @@
                 </label><!-- .Option -->
             </fieldset> <!-- .Options Panel -->
 
-            <button data-modal-id="myModal" class="cta" onclick="generateKeys()">
+            <button data-modal-id="myModal" class="cta generate-button">
                 <span>Generar Llaves</span>
                 <svg viewBox="0 0 13 10" height="10px" width="15px">
                     <path d="M1,5 L11,5"></path>
@@ -84,7 +76,7 @@
         <div id="myModal" class="fill-scrollbar-gap eins-modal custom-size" data-options="openTransition: bounceUpIn; closeTransition: bounceDownOut;">
             <div class="fill-scrollbar-gap eins-modal-content">
                 <div class="eins-modal-close"></div>
-                    <button onclick="downloadKeys()" type="button" class="fill-scrollbar-gap download-button">
+                    <button type="button" class="fill-scrollbar-gap download-button">
                         <span class="fill-scrollbar-gap download-button__text">Descargar</span>
                         <span class="fill-scrollbar-gap download-button__icon"><svg class="download-button__svg" data-name="Layer 2" id="bdd05811-e15d-428c-bb53-8661459f9307" viewBox="0 0 35 35" xmlns="http://www.w3.org/2000/svg"><path d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z"></path><path d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z"></path><path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"></path></svg></span>
                     </button>

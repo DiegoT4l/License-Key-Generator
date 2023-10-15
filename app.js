@@ -1,15 +1,3 @@
-function displayAlert(message) {
-    const alertContent = document.querySelector('.info__title');
-    alertContent.textContent = message;
-
-    const alert = document.querySelector('.info');
-    alert.classList.add('active');
-
-    setTimeout(() => {
-        alert.classList.remove('active');
-    }, 5000);
-}
-
 function generateRandomKey(length, includeUppercase, includeLowercase, includeNumbers) {
     const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const lowercase = 'abcdefghijklmnopqrstuvwxyz';
@@ -57,6 +45,7 @@ function generateKeys() {
 
     displayKeys(keys);
 }
+
 
 function displayKeys(keys) {
     const keysTable = document.getElementById('keysTable');
@@ -126,4 +115,13 @@ function downloadKeys() {
     }
 
     currentYearFooter(currentYearElement);
+})();
+
+(() => {
+    const generateKeysButton = document.querySelector('.generate-button');
+    generateKeysButton.addEventListener('click', () => generateKeys());
+})();
+(() => {
+    const generateKeysButton = document.querySelector('.download-button');
+    generateKeysButton.addEventListener('click', () => downloadKeys());
 })();
