@@ -47,7 +47,7 @@ El proyecto está organizado en los siguientes archivos y directorios:
 Clonar el proyecto
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/DiegoT4l/License-Key-Generator.git
 ```
 
 Ir al directorio del proyecto
