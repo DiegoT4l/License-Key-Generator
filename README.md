@@ -1,6 +1,9 @@
 
 # License key Generator
 
+# Descripción
+El Generador de Llaves de Licencia es una aplicación web interactiva que permite a los usuarios personalizar y descargar llaves de licencia únicas. Está diseñado para demostrar habilidades en desarrollo web y proporcionar una experiencia educativa y práctica.
+
 **Funcionamiento:**
 La aplicación permite al usuario especificar el número de llaves de licencia que desea generar, así como elegir si estas deben incluir letras mayúsculas, minúsculas y/o números. Una vez ingresadas estas preferencias, al hacer clic en el botón "Generar Llaves", se producirán las llaves de manera aleatoria.
 
@@ -11,19 +14,42 @@ El proyecto está construido utilizando HTML, CSS y JavaScript. El HTML define l
 Es importante tener en cuenta que este proyecto se presenta con el objetivo de demostrar habilidades técnicas en JavaScript y desarrollo web. Su finalidad principal es educativa y no busca satisfacer necesidades específicas de usuarios finales.
 
 
-## Autor
+![Logo](https://cdn.discordapp.com/attachments/1123647915609555044/1163597207904207008/Diseno_sin_titulo_1.png?ex=65402758&is=652db258&hm=daf28b18257219aa20e6070724be98e407f431bf9a6ca3c23b9d6ffed4dec769&)
+
+
+# License
+Este proyecto está bajo la Licencia MIT - [Más Detalles](https://github.com/DiegoT4l/License-Key-Generator/blob/main/LICENSE)
+
+
+# Autor
 
 - [@DiegoT4l](https://www.github.com/diegot4l)
-## Tech Stack
+# Tech Stack
 
-**Client:** HTML, CSS, JavaScript
+- HTML
+- CSS (incluyendo normalize.css)
+- JavaScript
+- Webpack
+- eins-modal
+# Documentacion
 
-**Libraries:** Normalize.css, eins-modal
+## Funcionalidades Principales
 
+1. **Personalización de Llaves:**
+   - Los usuarios pueden especificar el número de llaves a generar.
+   - Pueden elegir la longitud de cada llave.
+   - Tienen la opción de incluir mayúsculas, minúsculas y números en las llaves generadas.
 
-## Documentacion
+2. **Generación de Llaves:**
+   - El código JavaScript genera llaves de licencia basadas en las preferencias del usuario.
 
-**Estructura del Proyecto:**
+3. **Visualización de Llaves:**
+   - Las llaves generadas se muestran en una tabla en la página.
+
+4. **Descarga de Llaves:**
+   - Los usuarios pueden descargar las llaves generadas en un archivo CSV.
+
+## Estructura del Proyecto:
 
 El proyecto está organizado en los siguientes archivos y directorios:
 
@@ -70,34 +96,21 @@ Inicial el programa
 ```
 
 
-## Screenshots
+# Contribuciones
+¡Contribuciones son bienvenidas! Si deseas mejorar este proyecto, por favor envía un Pull Request.
+
+- Asesoramiento para el desarrollo de la interfaz, experiencia de usuario, análisis de interfaz de usuario por [Luisa F Torres](https://www.instagram.com/luisa.flt/).
+
+
+# Screenshots
 
 ![App Screenshot](https://cdn.discordapp.com/attachments/1123647915609555044/1162956180033912943/serial-key-code.png?ex=653dd258&is=652b5d58&hm=9f969529f1e442f7656ed3ddbf8b30a58fa3ec1e7b68d553d0e53840c5b2d38f&)
 
 ![App Screenshot](https://cdn.discordapp.com/attachments/1123647915609555044/1162958637677949048/image.png?ex=653dd4a1&is=652b5fa1&hm=a1775bf0b3062505b19887f89516dc90e411b754c35b562608b3aa9b1012f94d&)
 
 ![App Screenshot](https://cdn.discordapp.com/attachments/1123647915609555044/1162961162133057596/image.png?ex=653dd6fb&is=652b61fb&hm=5b2bbf437a1f99901927e780547df9a7cda0189cf216caccef82b54974ce749d&)
-## License
+# Agradecimientos
 
-MIT License
+- Agradezco a [Luisa F Torres](#) por su genial asesoramiento en el diseño de la interfaz y la experiencia del usuario. ¡Sin duda, este proyecto es mucho mejor gracias a sus ideas brillantes!
 
-Copyright (c) 2023 DiegoT4l
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
+También quiero enviar un agradecimiento a todos los que han aportado con sugerencias y apoyo.
