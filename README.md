@@ -1,6 +1,6 @@
 
 # License key Generator
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cce6364f-304d-4c56-b0ac-7f540ff3a2df/deploy-status)](https://app.netlify.com/sites/licensekeygenerator/deploys)
 # Descripción
 El Generador de Llaves de Licencia es una aplicación web interactiva que permite a los usuarios personalizar y descargar llaves de licencia únicas. Está diseñado para demostrar habilidades en desarrollo web y proporcionar una experiencia educativa y práctica.
 
