@@ -22,6 +22,35 @@ function generateRandomKey(length, includeUppercase, includeLowercase, includeNu
     return key;
 }
 
+function validarFormulario(numKeys, charKeys) {
+
+    if (charKeys < 6 || charKeys > 20) {
+        alert("El número de caracteres debe ser mayor o igual a 6 y menor que 20.");
+        disableGenerateButton();
+        return false;
+    }
+    if (numKeys < 1 || numKeys > 10) {
+        alert('El número de llaves debe ser mayor que 0 y menor que 10.');
+        disableGenerateButton();
+        return false;
+    }
+
+    enableGenerateButton();
+    return true;
+}
+
+function disableGenerateButton() {
+    const generateButton = document.querySelector('.generate-button');
+    generateButton.disabled = true;
+    console.log('disabled button');
+}
+
+function enableGenerateButton() {
+    const generateButton = document.querySelector('.generate-button');
+    generateButton.disabled = false;
+    console.log('enabled button');
+}
+
 function generateKeys() {
     const numKeys = parseInt(document.getElementById('numKeys').value, 10);
     const length = parseInt(document.getElementById('charKeys').value, 10);
@@ -29,8 +58,13 @@ function generateKeys() {
     const includeLowercase = document.getElementById('includeLowercase').checked;
     const includeNumbers = document.getElementById('includeNumbers').checked;
 
-    if (numKeys <= 0) {
-        console.error('El número de llaves debe ser mayor que cero.');
+    if (validarFormulario() === false) return;
+
+    if (includeLowercase === false && includeUppercase === false && includeNumbers === false) {
+        const keysTable = document.getElementById('keysTable');
+        keysTable.innerHTML = '';
+
+        keysTable.textContent = 'Debe seleccionar al menos un tipo de caracter.';
         return;
     }
 
@@ -78,6 +112,10 @@ function displayKeys(keys) {
 
         keysTable.appendChild(table);
     }
+    else {
+        keysTable.textContent = 'No hay llaves para mostrar.';
+        return;
+    }
 }
 
 function downloadKeys() {
@@ -101,7 +139,7 @@ function downloadKeys() {
         a.click();
         document.body.removeChild(a);
     } else {
-        console.error('No hay llaves para descargar.');
+        alert('No hay llaves para descargar.');
     }
 }
 
@@ -120,9 +158,20 @@ function downloadKeys() {
 
 (() => {
     const generateKeysButton = document.querySelector('.generate-button');
-    generateKeysButton.addEventListener('click', () => generateKeys());
+    generateKeysButton.addEventListener('click', () => {
+        generateKeys();
+    });
 })();
+
 (() => {
     const generateKeysButton = document.querySelector('.download-button');
     generateKeysButton.addEventListener('click', () => downloadKeys());
+})();
+
+(() => {
+    var numKeys = document.getElementById("numKeys");
+    var charKeys = document.getElementById("charKeys");
+
+    numKeys.addEventListener('input', () => validarFormulario(numKeys.value, charKeys.value));
+    charKeys.addEventListener('input', () => validarFormulario(numKeys.value, charKeys.value));
 })();
