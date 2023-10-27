@@ -16,7 +16,7 @@
     border: 2px solid var(--main-color);
     background-color: var(--bg-color);
     border-radius: 10px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .download-button, .download-button__icon, .download-button__text {
