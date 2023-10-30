@@ -223,6 +223,14 @@ footer {
     cursor: pointer;
     color: #fff;
 }
+.author {
+    margin: 0;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.author:hover {
+    text-decoration: underline 2px solid;
+}
 .footer__content a:hover {color: #185ee0;}
 #backToTop {
     justify-content: center;
