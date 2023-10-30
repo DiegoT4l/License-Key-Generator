@@ -5,25 +5,37 @@
     position: relative;
     margin: 0 auto;
     padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.keysTable__container {
+    position: relative;
+    margin-top: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    max-height: 300px;
 }
 .keysTable {
     border-collapse: collapse;
     background-color: #fff;
-    padding: 20px;
+    width: 100%;
     max-height: 300px;
-    overflow-y: auto;
+    overflow-y: scroll;
     position: relative;
-    margin-top: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
 }
 .keysTable table {
     width: 100%;
+    max-height: 300px;
     border-collapse: collapse;
     background-color: #fff;
-    
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    -webkit-overflow-scrolling: touch;
 }
-
 .keysTable table th,
 .keysTable table td {
     padding: 10px;
@@ -34,4 +46,6 @@
 }
 .keysTable table td {
     text-align: center;
+    font-family: monospace;
+    font-size: 14px;
 }
