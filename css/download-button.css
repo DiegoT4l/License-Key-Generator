@@ -33,7 +33,7 @@
     position: absolute;
     transform: translateX(110px);
     height: 100%;
-    width: 160px;
+    width: 40px;
     background-color: var(--bg-color-sub);
     display: flex;
     align-items: center;

@@ -8,7 +8,6 @@
         max-height: 600px;
         max-width: 600px;
     }
-    
 }
 .keysTable__container {
     position: relative;
@@ -38,7 +37,6 @@
 @media (min-width: 768px) {
     .keysTable table {
         max-height: 300px;
-        border-collapse: collapse;
         background-color: #fff;
         padding: 20px;
         border: 1px solid #ccc;
