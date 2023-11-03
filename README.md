@@ -5,12 +5,15 @@
 The License Key Generator is an interactive web application that allows users to customize and download unique license keys. It is designed to demonstrate web development skills and provide an educational, hands-on experience.
 
 **How does it work:**
+
 The application allows the user to specify the number of license keys to be generated, as well as to choose whether they should include uppercase letters, lowercase letters and/or numbers. Once these preferences have been entered, clicking on the "Generate Keys" button will randomly produce the keys.
 
 **Construction:**
+
 The project is built using HTML, CSS and JavaScript. HTML defines the structure of the web page, CSS provides the styling and visual design, and JavaScript handles the license key generation logic. The user interface is intuitive and easy to use, making it easy for the user to interact with the application.
 
 **Important Note:**
+
 It is important to note that this project is presented for the purpose of demonstrating technical skills in JavaScript and web development. Its main purpose is educational and does not seek to satisfy specific needs of end users.
 
 ![Logo](https://cdn.discordapp.com/attachments/1123647915609555044/1163597207904207008/Diseno_sin_titulo_1.png?ex=65402758&is=652db258&hm=daf28b18257219aa20e6070724be98e407f431bf9a6ca3c23b9d6ffed4dec769&)
