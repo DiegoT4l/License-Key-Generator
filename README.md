@@ -1,27 +1,26 @@
 
 # License key Generator
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cce6364f-304d-4c56-b0ac-7f540ff3a2df/deploy-status)](https://app.netlify.com/sites/licensekeygenerator/deploys)
-# Descripción
-El Generador de Llaves de Licencia es una aplicación web interactiva que permite a los usuarios personalizar y descargar llaves de licencia únicas. Está diseñado para demostrar habilidades en desarrollo web y proporcionar una experiencia educativa y práctica.
+# Description
+The License Key Generator is an interactive web application that allows users to customize and download unique license keys. It is designed to demonstrate web development skills and provide an educational, hands-on experience.
 
-**Funcionamiento:**
-La aplicación permite al usuario especificar el número de llaves de licencia que desea generar, así como elegir si estas deben incluir letras mayúsculas, minúsculas y/o números. Una vez ingresadas estas preferencias, al hacer clic en el botón "Generar Llaves", se producirán las llaves de manera aleatoria.
+**How does it work:**
+The application allows the user to specify the number of license keys to be generated, as well as to choose whether they should include uppercase letters, lowercase letters and/or numbers. Once these preferences have been entered, clicking on the "Generate Keys" button will randomly produce the keys.
 
-**Construcción:**
-El proyecto está construido utilizando HTML, CSS y JavaScript. El HTML define la estructura de la página web, el CSS proporciona el estilo y diseño visual, y el JavaScript maneja la lógica de generación de las llaves de licencia. La interfaz de usuario es intuitiva y fácil de usar, lo que facilita la interacción del usuario con la aplicación.
+**Construction:**
+The project is built using HTML, CSS and JavaScript. HTML defines the structure of the web page, CSS provides the styling and visual design, and JavaScript handles the license key generation logic. The user interface is intuitive and easy to use, making it easy for the user to interact with the application.
 
 **Nota Importante:**
-Es importante tener en cuenta que este proyecto se presenta con el objetivo de demostrar habilidades técnicas en JavaScript y desarrollo web. Su finalidad principal es educativa y no busca satisfacer necesidades específicas de usuarios finales.
-
+It is important to note that this project is presented for the purpose of demonstrating technical skills in JavaScript and web development. Its main purpose is educational and does not seek to satisfy specific needs of end users.
 
 ![Logo](https://cdn.discordapp.com/attachments/1123647915609555044/1163597207904207008/Diseno_sin_titulo_1.png?ex=65402758&is=652db258&hm=daf28b18257219aa20e6070724be98e407f431bf9a6ca3c23b9d6ffed4dec769&)
 
 
 # License
-Este proyecto está bajo la Licencia MIT - [Más Detalles](https://github.com/DiegoT4l/License-Key-Generator/blob/main/LICENSE)
+This project is licensed under the MIT License - [More Details](https://github.com/DiegoT4l/License-Key-Generator/blob/main/LICENSE)
 
 
-# Autor
+# Author
 
 - [@DiegoT4l](https://www.github.com/diegot4l)
 # Tech Stack
@@ -34,64 +33,63 @@ Este proyecto está bajo la Licencia MIT - [Más Detalles](https://github.com/Di
  
  ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
 
-# Documentacion
+# Documentation
 
-## Funcionalidades Principales
+## Main Features
 
-1. **Personalización de Llaves:**
-   - Los usuarios pueden especificar el número de llaves a generar.
-   - Pueden elegir la longitud de cada llave.
-   - Tienen la opción de incluir mayúsculas, minúsculas y números en las llaves generadas.
+1. **Key Customization:**
+   - Users can specify the number of keys to generate.
+   - They can choose the length of each key.
+   - They have the option to include uppercase, lowercase, and numbers in the generated keys.
 
-2. **Generación de Llaves:**
-   - El código JavaScript genera llaves de licencia basadas en las preferencias del usuario.
+2. **Key Generation:**
+   - The JavaScript code generates license keys based on user preferences.
 
-3. **Visualización de Llaves:**
-   - Las llaves generadas se muestran en una tabla en la página.
+3. **Key Display:**
+   - The generated keys are displayed in a table on the page.
 
-4. **Descarga de Llaves:**
-   - Los usuarios pueden descargar las llaves generadas en un archivo CSV.
+4. **Key Download:**
+   - Users can download the generated keys in a CSV file.
 
-## Estructura del Proyecto:
+## Project Structure:
 
-El proyecto está organizado en los siguientes archivos y directorios:
+The project is organized in the following files and directories:
 
-**index.html:** Este archivo contiene la estructura del sitio web y proporciona la interfaz de usuario para interactuar con la aplicación.
+**index.html:** This file contains the structure of the website and provides the user interface to interact with the application.
 
-**styles.css:** Aquí se encuentra la hoja de estilos en cascada (CSS) que define el diseño y apariencia visual de la aplicación.
+**styles.css:** Here is the Cascading Style Sheet (CSS) that defines the layout and visual appearance of the application.
 
-**script.js:** Este archivo contiene el código JavaScript que impulsa la lógica de generación de las llaves de licencia.
+**script.js:** This file contains the JavaScript code that drives the logic for generating the license keys.
 
-**LICENSE:** Este archivo puede contener los términos y condiciones de uso del código, dependiendo de las preferencias del autor.
+**LICENSE:** This file may contain the terms and conditions of use for the code, depending on the author's preferences.
 
-**README.md:** El archivo de instrucciones y documentación, donde se proporciona información sobre el proyecto, su uso y detalles técnicos.
+**README.md:** The instruction and documentation file, providing information about the project, its usage, and technical details.
 
-**img/:** Directorio que puede contener imágenes o recursos visuales utilizados en el proyecto, si aplicable.
-
-
+**img/:** Directory that may contain images or visual resources used in the project, if applicable.
 
 
-## Correr Localmente
 
-Clonar el proyecto
+
+## Running Locally
+
+Clone the project
 
 ```bash
   git clone https://github.com/DiegoT4l/License-Key-Generator.git
 ```
-
-Ir al directorio del proyecto
+Go to the project directory
 
 ```bash
   cd serialKeyGenerator
 ```
 
-Instalar dependencias
+Install dependencies
 
 ```bash
   npm i
 ```
 
-Inicial el programa
+Init the program
 
 ```bash
   open with LiveServer extension 
@@ -99,10 +97,10 @@ Inicial el programa
 ```
 
 
-# Contribuciones
-¡Contribuciones son bienvenidas! Si deseas mejorar este proyecto, por favor envía un Pull Request.
+# Contributions
+Contributions are welcome! If you would like to improve this project, please send a Pull Request.
 
-- Asesoramiento para el desarrollo de la interfaz, experiencia de usuario, análisis de interfaz de usuario por [Luisa F Torres](https://www.instagram.com/luisa.flt/).
+- Advice for interface development, user experience, user interface analysis by [Luisa F Torres](https://www.instagram.com/luisa.flt/).
 
 
 # Screenshots
@@ -112,8 +110,9 @@ Inicial el programa
 ![App Screenshot](https://cdn.discordapp.com/attachments/1123647915609555044/1162958637677949048/image.png?ex=653dd4a1&is=652b5fa1&hm=a1775bf0b3062505b19887f89516dc90e411b754c35b562608b3aa9b1012f94d&)
 
 ![App Screenshot](https://cdn.discordapp.com/attachments/1123647915609555044/1162961162133057596/image.png?ex=653dd6fb&is=652b61fb&hm=5b2bbf437a1f99901927e780547df9a7cda0189cf216caccef82b54974ce749d&)
-# Agradecimientos
 
-- Agradezco a [Luisa F Torres](#) por su genial asesoramiento en el diseño de la interfaz y la experiencia del usuario. ¡Sin duda, este proyecto es mucho mejor gracias a sus ideas brillantes!
+# Acknowledgments:
 
-También quiero enviar un agradecimiento a todos los que han aportado con sugerencias y apoyo.
+- I thank [Luisa F Torres](#) for her great advice on the interface design and user experience - this project is certainly much better thanks to her brilliant ideas!
+
+I also want to send a thank you to everyone who has contributed with suggestions and support.
